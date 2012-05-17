@@ -4,7 +4,7 @@
         "behat/mink":            "1.4.0beta2",
         "behat/mink-extension":  "dev-master",
 
-        "fabpot/goutte":           "*",
+        
         "facebook/php-webdriver":  "*",
         "alexandresalome/php-selenium": "*",
         "facebook/php-webdriver":       "*",
