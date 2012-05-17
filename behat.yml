@@ -1,0 +1,20 @@
+default:
+  context:
+    class:  'MyFeatureContext'
+  extensions:
+    Behat\MinkExtension\Extension:
+      base_url:  'http://saucelabs.com/'
+      javascript_session:  'selenium2'
+      goutte:              ~
+      selenium2:  
+
+
+
+
+# No context:
+no_context:
+  paths:
+    bootstrap: 'NON_EXISTING_FOLDER'
+  filters:
+    tags:      '~@javascript'
+
