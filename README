@@ -1,0 +1,16 @@
+Usage
+Clone this repo:
+
+git git@github.com:Shashi-ibuildings/ABCDofBehat.git
+
+cd ABCDofBehat
+
+
+
+Now install Behat, Mink, MinkExtension and their dependencies with composer:
+
+curl http://getcomposer.org/installer | php
+php composer.phar install
+Now to launch Behat, just run:
+
+bin/behat
