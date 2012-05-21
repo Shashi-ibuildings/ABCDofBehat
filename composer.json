@@ -4,7 +4,6 @@
         "behat/mink-extension": "dev-master",
 
         "fabpot/goutte": "*",
-        "behat/sahi-client": ">=1.0.1,<1.1-dev",
         "alexandresalome/php-selenium": "*",
         "instaclick/php-webdriver": "*"
     },
